@@ -38,6 +38,7 @@ namespace Ejercicio3E
             //Apellido.SelectionStart = Apellido.Length;
 
             DPI = System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(DPI);
+            //DPI.SelectionStart = DPI.Length;
         }
     }
 }
